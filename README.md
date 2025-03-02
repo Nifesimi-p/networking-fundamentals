@@ -90,5 +90,5 @@ results = calculate_subnets("192.168.1.0", "/24", 4)
 Whether you're designing networks, troubleshooting connectivity issues, or simply learning about how the internet works, understanding these fundamental concepts is essential for working with modern networked systems.
 
 ### Screenshot
-![subnet-calculator](Calculator.png)
+![subnet-calculator](Calculator.PNG)
 
