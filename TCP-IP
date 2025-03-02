@@ -1,0 +1,13 @@
+**TCP/IP Protocol Suite in a Real-World Scenario**
+
+Let's analyze how the **TCP/IP protocol suite** operates across layers when loading a web page (e.g., www.example.com):
+
+1. **Application Layer:** The user enters "www.example.com" in the browser. The browser uses **HTTP/HTTPS** to request the webpage.
+2. **Transport Layer:** The browser establishes a **TCP connection** with the web server using **port 443 (HTTPS)**.
+3. **Network Layer:** The request is forwarded using the **IP address** of the web server, routed through various networks.
+4. **Data Link Layer:** The request is converted into **Ethernet frames** and sent through network devices (switches, routers).
+5. **Physical Layer:** The request is transmitted via **Wi-Fi, fiber optics, or cables**.
+6. **The Response:** The server processes the request, sends back the web page, and the browser renders it for the user.
+
+
+

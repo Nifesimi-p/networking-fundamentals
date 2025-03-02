@@ -1,0 +1,16 @@
+**Subnet Calculation for an IP Range**
+
+Using a **subnet calculator**, we will calculate subnets for the given IP range: **192.168.1.0/24**.
+
+- **IP Range:** 192.168.1.0 - 192.168.1.255
+- **Subnet Mask:** 255.255.255.192 (/26)
+- **Subnets Created:**
+
+| Subnet | Network Address | Broadcast Address | Usable IP Range |
+|--------|----------------|-------------------|-----------------|
+| 1 | 192.168.1.0/26 | 192.168.1.63 | 192.168.1.1 - 192.168.1.62 |
+| 2 | 192.168.1.64/26 | 192.168.1.127 | 192.168.1.65 - 192.168.1.126 |
+| 3 | 192.168.1.128/26 | 192.168.1.191 | 192.168.1.129 - 192.168.1.190 |
+| 4 | 192.168.1.192/26 | 192.168.1.255 | 192.168.1.193 - 192.168.1.254 |
+
+Each subnet provides **62 usable IP addresses** (excluding the network and broadcast addresses).
